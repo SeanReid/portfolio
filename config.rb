@@ -32,16 +32,16 @@ activate :blog do |blog|
 end
 
 # Required
-set :blog_url, 'http://www.example.com'
+set :blog_url, 'http://seanreid.github.io/'
 set :blog_name, 'Sean'
-set :blog_description, 'Makes developing websites simple.'
-set :author_name, 'Middleman'
-set :author_bio, 'Middleman is a static site generator using all the ' \
-                 'shortcuts and tools in modern web development.'
+set :blog_description, 'Blogging from The Iron Yard - Houston'
+set :author_name, 'Sean Reid'
+set :author_bio, 'Ruby Newbie'
+
 # Optional
 set :author_locaton, nil
 set :author_website, nil
-set :blog_logo, nil
+set :blog_logo, '/images/rails-logo.png'
 
 page '/feed.xml', layout: false
 
@@ -187,8 +187,14 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
+  set :relative_links, true
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
 end
+
+  activate :deploy do |deploy|
+    deploy.method = :git
+  end
