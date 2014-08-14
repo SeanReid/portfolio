@@ -62,7 +62,7 @@ ANIMATIONS
         navigator.userAgent.match(/BlackBerry/i)) {
         isMobile = false;
     }
-    // if (isMobile == false) {
+    // if (isMobile == true) {
     //     $('body').removeClass('nomobile');
     //     $('.animated').removeClass('animated');
     }
