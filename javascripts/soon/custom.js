@@ -7,7 +7,7 @@ COMMING SOON PAGE
     * Set your date here  (YEAR, MONTH (0 for January/11 for December), DAY, HOUR, MINUTE, SECOND)
     * according to the GMT+0 Timezone
     **/
-    var launch = new Date(2015, 06, 14, 11, 00);
+    var launch = new Date(2014, 07, 17, 11, 00);
     /**
     * The script
     **/
@@ -16,7 +16,7 @@ COMMING SOON PAGE
     var hours = $('#hours');
     var minutes = $('#minutes');
     var seconds = $('#seconds');
-    
+
     setDate();
     function setDate(){
         var now = new Date();
@@ -54,13 +54,13 @@ ANIMATIONS
 (function($) {
     "use strict";
     var isMobile = false;
-    if (navigator.userAgent.match(/Android/i) || 
+    if (navigator.userAgent.match(/Android/i) ||
         navigator.userAgent.match(/webOS/i) ||
-        navigator.userAgent.match(/iPhone/i) || 
-        navigator.userAgent.match(/iPad/i)|| 
-        navigator.userAgent.match(/iPod/i) || 
-        navigator.userAgent.match(/BlackBerry/i)) {                 
-        isMobile = true;            
+        navigator.userAgent.match(/iPhone/i) ||
+        navigator.userAgent.match(/iPad/i)||
+        navigator.userAgent.match(/iPod/i) ||
+        navigator.userAgent.match(/BlackBerry/i)) {
+        isMobile = true;
     }
     if (isMobile == true) {
         $('body').removeClass('nomobile');
@@ -130,6 +130,6 @@ PROGRESS BAR
 (function($) {
     "use strict";
     $("a.btn-progress").click(function(){
-        $('#bar-container').slideToggle(); 
+        $('#bar-container').slideToggle();
     });
 })(jQuery);
