@@ -9,27 +9,19 @@
 <meta content='True' name='HandheldFriendly'>
 <meta content='320' name='MobileOptimized'>
 <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
-<link href="/images/rails-logo.png" rel="icon" type="image/ico" />
-<link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+<link href="../images/rails-logo.png" rel="icon" type="image/ico" />
+<link href="../stylesheets/application.css" rel="stylesheet" type="text/css" />
 <link href='//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
 </head>
-
-<body class='home-template'>
-<header class='site-head'>
-<div class='vertical'>
-<div class='site-head-content inner'>
-<h1 class='blog-title'>Sean</h1>
-<h2 class='blog-description'>Blogging from <a href="http://ironyard.com">The Iron Yard</a> - Houston</h2>
-</div>
-</div>
-</header>
+<body class='post-template tag-getting-started'>
 <main class='content' role='main'>
-
 <article class='post tag-getting-started'>
 <header class='post-header'>
+<a class='blog-logo' href='/blog'>
+<span class='blog-title'>Sean</span>
+</a>
+</header>
 <span class='post-meta'>
-
-
 <time datetime='2014-06-27'>
 27 June 2014
 </time>
@@ -41,7 +33,7 @@
 
   This weekend we are tasked with a few projects. One of which was to create a simple ping-pong
   scoring app using TDD. It’s very much like our bowling score game created using TDD. I was early  on committed to using an array despite knowing I need to adhere to TDD and not my “design.” I had quite a bit of difficultly later trying to change the app to work properly. I ended up scrapping the project after learning my approach wasn’t sticking to a TDD. I then changed to using a hash and I wish it went smoothly but even that proved trying. With hashes I had been getting by just avoiding using them all together after learning them DAY2! Easy concept but my Ruby life is so small thus far hashes were forgotten and purposely avoided on my part. I’m glad my knowledge base is constantly tested making sure I don’t forget anything and my skills are always improving.
-<a href='https://github.com/SeanReid/pingpong/tree/pingpong/tiya/day-14' target="_blank"><img alt="Octocat" src="/images/GitHub-Mark-120px-plus.png"/>
+<a href='https://github.com/SeanReid/pingpong/tree/pingpong/tiya/day-14' target="_blank"><img alt="Octocat" src="../images/GitHub-Mark-120px-plus.png"/>
 </a>
 There are a few variations of ping-ping scoring. The unofficial (official?) rules of TIY table is simply first to 21 with a lead of over 2 points. The scoring app takes the input of each of the player’s respective scores one at a time. This was also how the tests worked. Then determines which player wins. Seems so easy right? The app does check if either player is winning by at least two points. Then, the leader must have a score of over 21. Both being true the player with the higher score wins.
 </p>
@@ -89,6 +81,6 @@ Casper theme powered by
 </section>
 </div>
 </footer>
-<script src="/javascripts/application.js" type="text/javascript"></script>
+<script src="../javascripts/application.js" type="text/javascript"></script>
 </body>
 </html>

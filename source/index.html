@@ -1,128 +1,96 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Sean</title>
-<meta content='Blogging from The Iron Yard - Houston' name='description'>
-<meta charset='utf-8'>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'>
-<meta content='IE=edge' http-equiv='X-UA-Compatible'>
-<meta content='True' name='HandheldFriendly'>
-<meta content='320' name='MobileOptimized'>
-<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
-<link href="images/rails-logo.png" rel="icon" type="image/ico" />
-<link href="stylesheets/application.css" rel="stylesheet" type="text/css" />
-<link href='//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
-</head>
-<body class='home-template'>
-<header class='site-head'>
-<div class='vertical'>
-<div class='site-head-content inner'>
-<h1 class='blog-title'>Sean</h1>
-<h2 class='blog-description'>Blogging from <a href="http://ironyard.com">The Iron Yard</a> - Houston</h2>
-</div>
-</div>
-</header>
-<main class='content' role='main'>
+  <head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-<article class='post tag-getting-started'>
-<header class='post-header'>
-<span class='post-meta'>
-<time datetime='2014-06-28'>
-28 June 2014
-</time>
-Week 3
-</span>
-<h2 class='post-title'><a href="blog/003">gigGITy</a></h2>
-</header>
-<section class='post-excerpt'>
-<p>This week we moved from Ruby into a Git and HTML/CSS. Git is a simple concept but less easy to use....</p>
-</section>
-</article>
+    <title>Counter - Coming Soon Theme</title>
 
-<article class='post tag-getting-started'>
-<header class='post-header'>
-<span class='post-meta'>
-<time datetime='2014-06-27'>
-27 June 2014
-</time>
-Projects
-</span>
-<h2 class='post-title'><a href="projects">Ping-Pong Scoring Project</a></h2>
-</header>
-<section class='post-excerpt'>
-<p>This weekend we are tasked with a few projects. One of which was to create a simple ping-pong
-  scoring app using TDD. It’s very much like our bowling score game created using TDD. I was early
-  on committed to using an array despite knowing I need to adhere to TDD and not my “design.”...</p>
-</section>
-</article>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-<article class='post tag-getting-started'>
-<header class='post-header'>
-<span class='post-meta'>
-<time datetime='2014-06-26'>
-26 June 2014
-</time>
-Weeks 1 and 2
-</span>
-<h2 class='post-title'><a href="blog/002">Blackjack</a></h2>
-</header>
-<section class='post-excerpt'>
-<p> My big AHA so far this week is TDD. My design with the blackjack
-game was make lots of objects, methods/classes, and make them all fit. I know blackjack and have a bit
-of a mental flowchart of what the game should look like, what could go wrong?...</p>
-</section>
-</article>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/soon.css" rel="stylesheet">
 
-<article class='post tag-getting-started'>
-<header class='post-header'>
-<span class='post-meta'>
-<time datetime='2014-06-25'>
-25 June 2014
-</time>
-Weeks 1 and 2
-</span>
-<h2 class='post-title'><a href="blog/001">Eat? / Sleep? / Code!</a></h2>
-</header>
-<section class='post-excerpt'>
-<p>My first blog post ever! My name is Sean and today is the day I start blogging my journey through
-  The Iron Yard Academy. I am hoping that this will serve as a journal of my weekly thoughts, challenges,
-  victories and progress. I hope this also is inspiring others to take action on their dreams...
-</p>
-</section>
-</article>
 
-<nav class='pagination' role='pagination'>
-<span class='page-number'></span>
-</nav>
-</main>
-<footer class='site-footer'>
-<!--<a class='subscribe icon-feed' href='/feed.xml'>
-<span class='tooltip'>Subscribe!</span>
-</a>-->
-<a class='icon-twitter' href='https://twitter.com/TheRealSeanReid' target="_blank">
-<span class='hidden'>Twitter</span>
-</a>
-<a class='icon-facebook' href='https://www.facebook.com/TheRealSeanReid' target="_blank">
-<span class='hidden'>Facebook</span>
-</a>
-<div class='inner'>
-<section class='copyright'>
-All content copyright
-<a href="/">Sean</a>
-&copy;
-2014
-&bull; All rights reserved.
-</section>
-<section class='poweredby'>
-Proudly published with
-<a href='http://middlemanapp.com'>Middleman</a>
-</section>
-<section class='poweredby'>
-Casper theme powered by
-<a class='icon-ghost' href='https://ghost.org'>Ghost</a>
-</section>
-</div>
-</footer>
-<script src="/javascripts/application.js" type="text/javascript"></script>
-</body>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+  </head>
+  <!-- START BODY -->
+  <body class="nomobile">
+
+    <!-- START HEADER -->
+    <section id="header">
+        <div class="container">
+            <header>
+                <!-- HEADLINE -->
+                <h1 data-animated="GoIn"><b>COUNTER</b> site is coming soon...</h1>
+            </header>
+            <!-- START TIMER -->
+            <div id="timer" data-animated="FadeIn">
+                <p id="message"></p>
+                <div id="days" class="timer_box"></div>
+                <div id="hours" class="timer_box"></div>
+                <div id="minutes" class="timer_box"></div>
+                <div id="seconds" class="timer_box"></div>
+            </div>
+            <!-- END TIMER -->
+            <div class="col-lg-4 col-lg-offset-4 mt centered">
+            	<h4>LET ME KNOW WHEN YOU LAUNCH</h4>
+				<form class="form-inline" role="form">
+				  <div class="form-group">
+				    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+				  </div>
+				  <button type="submit" class="btn btn-info">Submit</button>
+				</form>            
+			</div>
+            
+        </div>
+        <!-- LAYER OVER THE SLIDER TO MAKE THE WHITE TEXTE READABLE -->
+        <div id="layer"></div>
+        <!-- END LAYER -->
+        <!-- START SLIDER -->
+        <div id="slider" class="rev_slider">
+            <ul>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/1.jpg">
+                <img src="assets/img/slider/1.jpg">
+              </li>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/2.jpg">
+                <img src="assets/img/slider/2.jpg">
+              </li>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/3.jpg">
+                <img src="assets/img/slider/3.jpg">
+              </li>
+              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/4.jpg">
+                <img src="assets/img/slider/4.jpg">
+              </li>
+            </ul>
+        </div>
+        <!-- END SLIDER -->
+    </section>
+    <!-- END HEADER -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/soon/plugins.js"></script>
+    <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/js/soon/custom.js"></script>
+  </body>
+  <!-- END BODY -->
 </html>
