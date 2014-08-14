@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sean</title>
+  <subtitle>Blogging from The Iron Yard - Houston</subtitle>
+  <id>http://www.example.com</id>
+  <link href="http://seanreid.github.io/blog/"/>
+  <link href="http://seanreid.github.io/blog/feed.xml" rel="self"/>
+  <updated>2013-10-25T19:00:00-05:00</updated>
+  <author>
+    <name>Sean Reid</name>
+  </author>
+  <entry>
+    <title>1st Blog</title>
+    <link rel="alternate" href="http://seanreid.github.io/blog/001/"/>
+    <id>http://seanreid.github.io/blog/001/</id>
+    <published>2013-10-25T19:00:00-05:00</published>
+    <updated>2014-06-26T11:23:13-05:00</updated>
+    <author>
+      <name>SEAN</name>
+    </author>
+    <summary type="html">My first blog post ever! My name is Sean and today is the day I start blogging my journey through The Iron Yard Academy.
+    I am hoping that this will serve as a journal of my weekly thoughts, challenges, victories and progress. I hope this also is inspiring </summary>
+  </entry>
+
+  <entry>
+    <title>Week 2</title>
+    <link rel="alternate" href="http://seanreid.github.io/blog/002/"/>
+    <id>http://seanreid.github.io/blog/002/</id>
+    <published>2013-10-25T19:00:00-05:00</published>
+    <updated>2014-06-26T11:23:13-05:00</updated>
+    <author>
+      <name>SEAN</name>
+    </author>
+    <summary type="html">To keep some sort of structure in this blog I thought I would start with
+    telling a little about me and then a little about TIYA. Yes, I already feel trained to think of organizing
+    while creating. I’m not sure if that goes in the about me or the about TIYA. :)
+  </entry>
+
+  <entry>
+    <title>Creating this website</title>
+    <link rel="alternate" href="http://seanreid.github.io/projects/"/>
+    <id>http://seanreid.github.io/projects/</id>
+    <published>2013-10-25T19:00:00-05:00</published>
+    <updated>2014-06-26T11:23:13-05:00</updated>
+    <author>
+      <name>SEAN</name>
+    </author>
+    <summary type="html">EMPTY  </entry>
+
+  <entry>
+    <title>Week 3</title>
+    <link rel="alternate" href="http://seanreid.github.io/blog/003/"/>
+    <id>http://seanreid.github.io/blog/003/</id>
+    <published>2013-10-25T19:00:00-05:00</published>
+    <updated>2014-06-26T11:23:13-05:00</updated>
+    <author>
+      <name>SEAN</name>
+    </author>
+    <summary type="html">Empty
+   </entry>
+</feed>
