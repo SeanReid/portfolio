@@ -1,0 +1,54 @@
+/*
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Basic */
+/* line 9, ../sass/style-normal.scss */
+body, input, select, textarea {
+  font-size: 13pt;
+  letter-spacing: 0.025em;
+  line-height: 1.65em; }
+
+/* line 15, ../sass/style-normal.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em; }
+
+/* Section/Article */
+/* line 22, ../sass/style-normal.scss */
+header.major {
+  padding-bottom: 1.5em; }
+
+/* line 28, ../sass/style-normal.scss */
+footer.major {
+  padding-top: 2em; }
+
+/* Wrapper */
+/* line 35, ../sass/style-normal.scss */
+.wrapper {
+  margin-bottom: 4em;
+  padding: 4em 3em; }
+  /* line 39, ../sass/style-normal.scss */
+  .wrapper.style4 {
+    padding: 3em; }
+
+/* Header */
+/* line 49, ../sass/style-normal.scss */
+#header nav ul li {
+  margin-left: 1em; }
+
+/* Banner */
+/* line 58, ../sass/style-normal.scss */
+#banner {
+  background-attachment: scroll; }
+
+/* CTA */
+/* line 64, ../sass/style-normal.scss */
+#cta {
+  padding: 4em;
+  background-attachment: scroll; }
+
+/* Footer */
+/* line 71, ../sass/style-normal.scss */
+#footer {
+  padding: 4em; }

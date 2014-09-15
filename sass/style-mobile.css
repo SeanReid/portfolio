@@ -1,0 +1,152 @@
+/*
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Basic */
+/* line 11, ../sass/style-mobile.scss */
+body {
+  min-width: 320px; }
+
+/* line 15, ../sass/style-mobile.scss */
+h2 {
+  font-size: 1.25em;
+  letter-spacing: 0.1em; }
+
+/* line 20, ../sass/style-mobile.scss */
+h3 {
+  font-size: 1em;
+  letter-spacing: 0.025em; }
+
+/* line 25, ../sass/style-mobile.scss */
+p {
+  text-align: justify; }
+
+/* Section/Article */
+/* line 31, ../sass/style-mobile.scss */
+header {
+  text-align: center; }
+  /* line 34, ../sass/style-mobile.scss */
+  header.major {
+    padding-bottom: 0; }
+  /* line 38, ../sass/style-mobile.scss */
+  header.special {
+    margin-bottom: 3em;
+    padding-left: 1.5em;
+    padding-right: 1.5em; }
+    /* line 44, ../sass/style-mobile.scss */
+    header.special:before, header.special:after {
+      width: 38%; }
+    /* line 48, ../sass/style-mobile.scss */
+    header.special .icon {
+      font-size: 0.75em;
+      top: 1.5em; }
+  /* line 54, ../sass/style-mobile.scss */
+  header p {
+    text-align: center; }
+
+/* line 60, ../sass/style-mobile.scss */
+footer.major {
+  padding-top: 0; }
+
+/* Icon */
+/* line 68, ../sass/style-mobile.scss */
+.icon.circle {
+  font-size: 1em; }
+
+/* Button */
+/* line 78, ../sass/style-mobile.scss */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  max-width: 20em;
+  width: 100%; }
+  /* line 82, ../sass/style-mobile.scss */
+  input[type="button"].fit,
+  input[type="submit"].fit,
+  input[type="reset"].fit,
+  .button.fit {
+    width: auto; }
+
+/* List */
+/* line 91, ../sass/style-mobile.scss */
+ul.icons li {
+  padding-left: 0.25em; }
+/* line 98, ../sass/style-mobile.scss */
+ul.featured-icons li .icon {
+  width: 1.1em; }
+/* line 104, ../sass/style-mobile.scss */
+ul.buttons {
+  text-align: center; }
+
+/* Wrapper */
+/* line 111, ../sass/style-mobile.scss */
+.wrapper {
+  margin-bottom: 2.5em;
+  padding: 2.25em 1.5em; }
+  /* line 116, ../sass/style-mobile.scss */
+  .wrapper.special br {
+    display: none; }
+  /* line 121, ../sass/style-mobile.scss */
+  .wrapper.style1 {
+    padding: 0 1.5em; }
+  /* line 125, ../sass/style-mobile.scss */
+  .wrapper.style2 {
+    background-size: 10em;
+    padding: 2.25em 1.5em; }
+  /* line 130, ../sass/style-mobile.scss */
+  .wrapper.style4 {
+    background-size: 10em;
+    padding: 1.5em 1.5em 3em 1.5em; }
+
+/* Banner */
+/* line 138, ../sass/style-mobile.scss */
+#banner {
+  background-size: 10em, 10em, auto, cover;
+  padding: 6em 0; }
+  /* line 142, ../sass/style-mobile.scss */
+  #banner .inner {
+    background: none;
+    display: block;
+    padding: 0 1.5em; }
+    /* line 148, ../sass/style-mobile.scss */
+    #banner .inner header h2 {
+      font-size: 1.5em; }
+    /* line 153, ../sass/style-mobile.scss */
+    #banner .inner p {
+      text-align: center; }
+    /* line 157, ../sass/style-mobile.scss */
+    #banner .inner br {
+      display: none; }
+
+/* Main */
+/* line 165, ../sass/style-mobile.scss */
+#main {
+  background-size: 10em;
+  padding: 3.5em 0 2.5em 0; }
+
+/* line 170, ../sass/style-mobile.scss */
+body.index #main {
+  padding: 2.5em 0 0 0; }
+
+/* line 174, ../sass/style-mobile.scss */
+body.contact #main {
+  padding-bottom: 0; }
+
+/* CTA */
+/* line 180, ../sass/style-mobile.scss */
+#cta {
+  background-size: 10em, 10em, auto, cover;
+  padding: 3em 1.5em; }
+
+/* Footer */
+/* line 187, ../sass/style-mobile.scss */
+#footer {
+  padding: 3em 1.5em; }
+  /* line 191, ../sass/style-mobile.scss */
+  #footer .copyright li {
+    display: block;
+    margin: 1em 0 0 0;
+    padding: 0;
+    border: 0; }
