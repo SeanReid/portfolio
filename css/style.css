@@ -356,6 +356,15 @@
 					background: #df93b8;
 				}
 
+			.icon.circle.fa-tumblr {
+				background: #35465c;
+				color: white;
+			}
+
+				.icon.circle.fa-tumblr:hover {
+					background: #516b8d;
+				}
+
 		.icon.featured {
 			cursor: default;
 			display: block;
@@ -570,7 +579,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #75BDB4;
+			background-color: #2c7b72;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
